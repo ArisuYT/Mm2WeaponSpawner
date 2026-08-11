@@ -161,7 +161,7 @@ local titleLbl = new("TextLabel", {
     Size                   = UDim2.new(1, -60, 0, 26),
     Position               = UDim2.fromOffset(16, 8),
     BackgroundTransparency = 1,
-    Text                   = "Rhyzen Spawner",
+    Text                   = "Arisu Spawner",
     Font                   = Enum.Font.GothamBlack,
     TextSize               = 22,
     TextColor3             = Color3.new(1,1,1),
@@ -1022,7 +1022,7 @@ frame.Visible = false
     titleGrad.Color  = gradSeq({C.Pink, C.Mint})
     titleGrad.Parent = titleLbl2
 
-    local titleText = "Rhyzen Spawner"
+    local titleText = "Arisu Spawner"
     for i = 1, #titleText do
         titleLbl2.Text = titleText:sub(1, i)
         task.wait(0.055)
